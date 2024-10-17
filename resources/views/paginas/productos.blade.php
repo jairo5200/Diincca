@@ -3,11 +3,17 @@
 @section('contenido')
 
     <section class="px-4 py-24 mx-auto max-w-7xl blanco-fondo">
-    <h1 class="mb-3 text-4xl font-bold text-center text-gray-900 md:leading-tight md:text-5xl" itemprop="headline">
+    <h1 class="mb-3 text-4xl font-bold text-center text-zinc-950 md:leading-tight md:text-5xl" itemprop="headline">
         Productos
     </h1>
 
-  <p class="mb-20 text-lg text-gray-900">Comes directly from the desk of engineers, creators and managers at Skcript.</p>
+  <p class="mb-10 font-bold text-2lg text-amber-950">Comes directly from the desk of engineers, creators and managers at Skcript.</p>
+  <p class="mb-10 font-bold text-lg text-red-950">Comes directly from the desk of engineers, creators and managers at Skcript.</p>
+  <p class="mb-10 font-bold text-lg text-zinc-950">Comes directly from the desk of engineers, creators and managers at Skcript.</p>
+  <p class="mb-10 font-bold text-lg text-orange-950">Comes directly from the desk of engineers, creators and managers at Skcript.</p>
+  <p class="mb-10 font-bold text-lg text-white">Comes directly from the desk of engineers, creators and managers at Skcript.</p>
+  <p class="mb-10 font-bold text-lg text-orange-700">Comes directly from the desk of engineers, creators and managers at Skcript.</p>
+  <p class="mb-10 font-bold text-lg text-amber-500">Comes directly from the desk of engineers, creators and managers at Skcript.</p>
   <div class="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3">
     <div class="card-container">
     <h2 class="mb-2 text-3xl font-extrabold leading-tight text-gray-900">Café</h2>
