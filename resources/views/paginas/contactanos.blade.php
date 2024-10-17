@@ -20,9 +20,9 @@
                         <input type="text" placeholder="3124567890" name="numero" id="numero" class=" border-2 border-gray-300 rounded-full text-black text-m rounded-lg  block w-full p-2.5  dark:border-gray-600 dark:text-Black dark:focus:ring-blue-500 dark:focus:border-blue-500 bg-transparent placeholder-black" required>
                         <label for="email" class="block mb-2 text-l font-medium text-black dark:text-black">Correo *:</label>
                         <input type="email" placeholder="* example@mail.com" name="email" id="email" class="border-2 border-gray-300 rounded-full text-black text-m rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:border-gray-600 dark:focus:ring-blue-500 dark:focus:border-blue-500 bg-transparent placeholder-black" required>
-                        <label for="info" class="block mb-2 text-l font-medium text-black dark:text-black">¿Quieres contarnos algo adicional? (Maximo 200 caracteres):</label>
+                        <label for="info" class="block mb-2 text-l font-medium text-black dark:text-black">¿de que productos deseas informacion?</label>
                         <textarea name="info" id="info" class= "border-2 border-gray-300 text-black text-m rounded-l  block w-full p-2.5  dark:border-gray-600 dark:text-Black dark:focus:ring-blue-500 dark:focus:border-blue-500 bg-transparent placeholder-black"></textarea>
-                        <button type="submit" class="text-black bg-transparent border-black border-2 font-medium rounded-full text-m px-5 py-2.5 text-center w-full mt-2 hover:text-white ">solicitar informacion</button>
+                        <button type="submit" class="text-black bg-transparent border-black border-2 font-medium rounded-full text-m px-5 py-2.5 text-center w-full mt-2 hover:text-white ">Contactar</button>
                     </div>
                     <div class="md:pl-10 mx-3 my-3">
                     <h1 class="text-3xl font-bold text-center text-gray-900">Contactanos</h1>

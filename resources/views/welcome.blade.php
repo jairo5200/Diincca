@@ -74,12 +74,55 @@
 
 
 
-
-<footer >
-<div class="items-center justify-between px-4 py-2 mx-auto max-w-7xl md:flex-row bg-white">
-        <p class="mb-8 text-sm text-center text-gray-700 md:text-left md:mb-0">© Copyright 2024 DIINCCA. Todos Los Derechos Reservados.</p>
-    </div>
-<div class="flex mx-auto max-w-7xl  justify-10px md:justify-center space-x-2 bg-white mb-10 pb-10">
+<footer class=" bg-zinc-900">
+    <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+        <div class="md:flex md:justify-between">
+          <div class="mb-6 md:mb-0">
+              <a href="#" class="flex items-center">
+                  <img src="{{asset('imagen/logo.png')}}" class="h-8 me-3" alt="Diincca Logo" />
+              </a>
+          </div>
+          <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+              <div>
+                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Recursos</h2>
+                  <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                      <li class="mb-4">
+                          <a href="#" class="hover:underline">Ejemplo 1</a>
+                      </li>
+                      <li>
+                          <a href="#" class="hover:underline">ejemplo 2</a>
+                      </li>
+                  </ul>
+              </div>
+              <div>
+                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Siguenos</h2>
+                  <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                      <li class="mb-4">
+                          <a href="#" class="hover:underline ">Ejemplo 1</a>
+                      </li>
+                      <li>
+                          <a href="#" class="hover:underline">Ejemplo 2</a>
+                      </li>
+                  </ul>
+              </div>
+              <div>
+                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legalidad</h2>
+                  <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                      <li class="mb-4">
+                          <a href="#" class="hover:underline">politica</a>
+                      </li>
+                      <li>
+                          <a href="#" class="hover:underline">Terminos &amp; Condiciones</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+      <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+      <div class="sm:flex sm:items-center sm:justify-between">
+          <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© Copyright 2024 DIINCCA. Todos Los Derechos Reservados.
+          </span>
+          <div class="flex max-w-7xl  justify-10px md:justify-center space-x-2 ">
         <a href="#" class="texto">
             <svg class="h-10 w-10" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path fill-rule="evenodd"
@@ -123,10 +166,8 @@
             </svg>
         </a>
     </div>
-
-</div>
-
-
+      </div>
+    </div>
 </footer>
 
     </body>
