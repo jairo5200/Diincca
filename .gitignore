@@ -2,9 +2,10 @@
 /node_modules
 /public/build
 /public/hot
-/public/imagen/.jpg
-/public/imagen/.png
-/public/imagen/.gif
+/public/imagen/
+*.jpg
+*.png
+*.gif
 /public/storage
 /storage/*.key
 /vendor
