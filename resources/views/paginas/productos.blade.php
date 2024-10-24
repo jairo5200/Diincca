@@ -2,7 +2,7 @@
 
 @section('contenido')
 
-    <section class="px-4 py-24 mx-auto max-w-7xl blanco-fondo">
+    <section class="px-4 py-24 mx-auto max-w-7xl blanco-fondo overflow-hidden shadow-xl border-2 border-black rounded">
     <h1 class="mb-3 text-4xl font-bold text-center text-zinc-950 md:leading-tight md:text-5xl" itemprop="headline">
         Productos
     </h1>

@@ -10,6 +10,9 @@
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
         <link href="https://fonts.cdnfonts.com/css/scriptina" rel="stylesheet">
+        <link href="https://fonts.cdnfonts.com/css/terminator-real-nfi" rel="stylesheet">
+        <link href="https://fonts.cdnfonts.com/css/conthrax" rel="stylesheet">
+        <link href="https://fonts.cdnfonts.com/css/race-sport-free" rel="stylesheet">
         <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -53,12 +56,40 @@
     <div class="w-full">
         <div class=" space-x-1 mx-auto max-w-7xl fondo-menu">
             <div class="topnav " id="myTopnav">
-                <a href="#home" class="active px-2 texto"></a>
-                <a href="{{ route('inicio') }}" class="active px-2 texto">Inicio</a>
-                <a href="{{ route('nosotros') }}" class="px-2 texto">Nosotros</a>
-                <a href="{{ route('productos') }}" class="px-2 texto ">Productos</a>
-                <a href="{{ route('contactanos') }}" class=" px-2 texto ">Contactanos</a>
-                <a href="javascript:void(0);" class="texto icon" onclick="myFunction()">
+                <a href="#home" class="active px-2 texto estilo1"></a>
+                <a href="{{ route('inicio') }}" class="active px-2 texto estilo1">Inicio</a>
+                <a href="{{ route('nosotros') }}" class="px-2 texto estilo1">Nosotros</a>
+                <a href="{{ route('productos') }}" class="px-2 texto estilo1">Productos</a>
+                <a href="{{ route('contactanos') }}" class=" px-2 texto estilo1">Contactanos</a>
+                <a href="javascript:void(0);" class="texto estilo1 icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="w-full">
+        <div class=" space-x-1 mx-auto max-w-7xl fondo-menu">
+            <div class="topnav " id="myTopnav">
+                <a href="#home" class="active px-2 texto estilo2"></a>
+                <a href="{{ route('inicio') }}" class="active px-2 texto estilo2">Inicio</a>
+                <a href="{{ route('nosotros') }}" class="px-2 texto estilo2">Nosotros</a>
+                <a href="{{ route('productos') }}" class="px-2 texto estilo2">Productos</a>
+                <a href="{{ route('contactanos') }}" class=" px-2 texto estilo2">Contactanos</a>
+                <a href="javascript:void(0);" class="texto estilo2 icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="w-full">
+        <div class=" space-x-1 mx-auto max-w-7xl fondo-menu">
+            <div class="topnav " id="myTopnav">
+                <a href="#home" class="active px-2 texto estilo3"></a>
+                <a href="{{ route('inicio') }}" class="active px-2 texto estilo3">Inicio</a>
+                <a href="{{ route('nosotros') }}" class="px-2 texto estilo3">Nosotros</a>
+                <a href="{{ route('productos') }}" class="px-2 texto estilo3">Productos</a>
+                <a href="{{ route('contactanos') }}" class=" px-2 texto estilo3">Contactanos</a>
+                <a href="javascript:void(0);" class="texto estilo3 icon" onclick="myFunction()">
                     <i class="fa fa-bars"></i>
                 </a>
             </div>

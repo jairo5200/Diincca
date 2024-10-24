@@ -13,6 +13,7 @@ body {
   background-image: url('../imagen/fondo.png');
   background-size: 400px;
   background-repeat: repeat;
+  backdrop-filter: blur(5px);
 }
 
 
@@ -47,12 +48,24 @@ body {
     }
 }
 
+.estilo1 {
+    font-family: 'Terminator Real NFI', sans-serif;
+}
+
+.estilo2 {
+    font-family: 'Conthrax', sans-serif;
+}
+
+.estilo3 {
+    font-family: 'Race Sport Free', sans-serif;
+}
+
 .texto {
     font-size: 24px;
-    font-weight: bold;
     color: rgba(0, 0, 0, 0.801);
     transition: all 0.3s ease; /* Transición suave al cambiar propiedades */
   }
+
 
   /* Estilos al pasar el mouse sobre el texto */
 .texto:hover {
@@ -69,6 +82,8 @@ body {
 #formulario_contactenos {
     backdrop-filter: blur(5px);
 }
+
+
 
 .card-container {
     width: 350px;

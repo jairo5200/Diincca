@@ -3,7 +3,7 @@
 @section('contenido')
 
 
-<div id="carouselExampleCaptions"  class="carousel slide mx-auto max-w-7xl" data-bs-ride="carousel">
+<div id="carouselExampleCaptions"  class="carousel slide mx-auto max-w-7xl overflow-hidden shadow-xl border-2 border-black rounded" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -50,7 +50,7 @@
   </button>
 </div>
 
-<div class="flex flex-col items-center justify-between px-4 py-12 mx-auto max-w-7xl md:flex-row blanco-fondo bg-white">
+<div class="px-4 py-24 mx-auto max-w-7xl blanco-fondo overflow-hidden shadow-xl border-2 border-black rounded">
     <div>
         <h1 class="mb-3 text-4xl font-bold text-center text-gray-900 md:leading-tight md:text-5xl" itemprop="headline">
         Titulo Principal
